@@ -15,7 +15,7 @@ function test_prime(n)
   {
     for(var i = 2; i < n; i++)
     {
-      if(n % x === 0)
+      if(n % i === 0)
       {
         return ("It is not a prime number");
       }
